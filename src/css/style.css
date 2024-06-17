@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/flatpickr.css';
+
+@import 'tailwindcss/utilities';
+
+.main{
+
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.boxes
+{
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color: white;;
+    width:80vw;
+
+}
+.selectBox{
+    width:10vmax;
+}
+.barChart{
+    background-color:white;
+    width:50vmax;
+}
+.cards{
+
+    width:19vmax;
+}
+.chartArea{
+    width:80vmax;
+}
+.recordsTable{
+
+    width:40vmax;
+}
+.transcript{
+    background-color:white;
+    width:38vmax;
+}
+
+
+.waveformDiv{
+    width:80vmax
+}
+#waveform_buttonset{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    height:32px;
+    
+  }
+  
+  input[type=range] {
+    height: 38px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 30%;
+    background-color:transparent;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    
+    background: rgba(255,255,255,.4);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color:black;
+    padding:10px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    border-radius: 50%;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 25px;
+  
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -15px;
+  }
+  .candidateTable{
+    width:27vmax;
+    height:15vmax;
+    overflow:scroll;
+  }
+  .recordsTable{
+
+    overflow:scroll;
+   
+    display:flex;
+    flex-direction:row;
+   
+    align-items:center;
+
+    flex-wrap:wrap;
+    width:95%;
+
+
+  }
+  .candidateTable .table{
+
+
+  }
+  .callCenterId:hover{
+    background-color:rgb(212, 187, 187);
+    color:white;
+  }
+  .recordsspeech{
+   
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+   
+  }
+.transcript{
+
+  width:30vmax;
+  height:40vmax;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.data-container{
+
+  width:95%;
+  height:80%;
+  overflow:scroll;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  gap:20px;
+  position:relative;
+}
+
+.left{
+  margin-left:2%;
+  background-color:rgb(144, 144, 210);
+  padding:20px;
+  text-align:left;
+  
+  width:40%;
+  margin-bottom:2%;
+  margin-top:2%;
+  border-radius:  10%;
+
+}
+ .right{
+  background-color:rgb(173, 228, 173);
+  padding:20px;
+  text-align:left;
+  margin-left:50%;
+  width:40%;
+  margin-bottom:2%;
+  margin-top:2%;
+  border-radius:  10%;
+
+ }
